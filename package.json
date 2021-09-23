@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  },
+  "scripts": {
+    "start": "node server.js --ignore client/"
+  },
+  "name": "chatappclassed",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
